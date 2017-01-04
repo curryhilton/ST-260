@@ -41,6 +41,9 @@ sqrt(49)
 
 *** =sct
 ```{r}
+test_error()
+success_msg("Do work!")
+
 test_output_contains("77", incorrect_msg = "Try again")
 test_output_contains("13", incorrect_msg = "Try again")
 test_output_contains("1440", incorrect_msg = "Try again")
@@ -48,10 +51,6 @@ test_output_contains("4", incorrect_msg = "Try again")
 test_output_contains("7", incorrect_msg = "Try again")
 test_output_contains("32768", incorrect_msg = "Try again")
 
-
-test_error()
-
-success_msg("Good work!")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:a916a31917
@@ -89,10 +88,13 @@ k * z
 
 *** =sct
 ```{r}
-test_output_contains("x <- 4", incorrect_msg = "Try again")
-test_output_contains("y <- 3", incorrect_msg = "Try again")
-test_output_contains("z <- c(1, 2, 3)", incorrect_msg = "Try again")
-test_output_contains("k <- x * y", incorrect_msg = "Try again")
-test_output_contains("k * z", incorrect_msg = "Try again")
+test_error()
+success_msg("Do work!")
+
+test_student_typed("x <- 4", not_typed_msg = "Something is wrong with the assignment `x`. Take another look at the instruction.")
+test_student_typed("y <- 3", not_typed_msg = "Something is wrong with the assignment `y`. Take another look at the instruction.")
+test_student_typed("z <- c(1, 2, 3)", not_typed_msg = "Something is wrong with the assignment vector `z`. Take another look at the instruction.")
+test_student_typed("k <- x*y", not_typed_msg = "Something is wrong with the assignment `k`. Take another look at the instruction.")
+test_student_typed("k*z", not_typed_msg = "Something is wrong with the assignment `k`. Take another look at the instruction.")
 test_output_contains("c(12, 24, 36)", incorrect_msg = "Try again
 ```
