@@ -15,7 +15,7 @@ In the following exercise you will learn how R can be used as the greatest calcu
 - Divide 32 by 8
 - Find the square root of 49
 - Raise 32 to power of 3
-- Find the log base 10 of 9
+
 
 *** =hint
 
