@@ -1,8 +1,6 @@
 ---
-title       : Navigation in R
+title       : Data and Visualizations in R
 description : Basic navigation in R, common functions, indexing, help, etc.
-
-
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:17b7ba7439
 ## Simple Operations
@@ -18,6 +16,8 @@ In the following exercise you will learn how R can be used as the greatest calcu
 
 
 *** =hint
+
+Type the mathematical operations in the console and choose "Submit Answer".
 
 *** =pre_exercise_code
 ```{r}
@@ -37,8 +37,6 @@ In the following exercise you will learn how R can be used as the greatest calcu
 32 / 8
 sqrt(49)
 32 ^ 3
-
-
 ```
 
 *** =sct
