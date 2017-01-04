@@ -1,7 +1,7 @@
 title            : Introduction to Statistical Inference with R 
 author_field     : Curry W. Hilton
-description      : In this introduction to R, you will master the basics of this beautiful open source language, including factors, lists and data frames. With the knowledge gained in this course, you will be ready to                       undertake your first very own data analysis. With over 2 million users worldwide R is rapidly becoming the leading programming language in statistics and data science. Every year, the number of R users                    grows by 40% and an increasing number of organizations are using it in their day-to-day activities. Leverage the power of R by completing this free R online course today!
-author_bio       : curryhilton is an awesome DataCamp course creator.<br>You can tell something about yourself <strong>here</strong>.
+description      : In this Introduction to Statistical Inference with R course, you will master the basics of statistical inference at the undergraduate level, including data and visualizations, probability and distributions,                inference (hypothesis testing, confidence intervals, and parameter estimation), and simple linear regression. With the knowledge gained in this course, you will be ready to leverage fundamental statistics                 and R to perform statistical data analysis.
+author_bio       : Curry W. Hilton is a PhD student in Applied Statistics at the University of Alabama. He holds a B.S. in Business Economics from the University of North Carolina, a B.A. in Mathematics and Statistics from                  High Point University, and a M.A. in Economics from Clemson University. His research interests center on computational statistics in the area of Statistical Quality Control (SQC) and Statistical Education.                He is originally from Brown Summit, NC but currently lives in Tuscaloosa, AL with his three dogs, Emma, Berkeley, and Buffy.
 university       : DataCamp
 difficulty_level : 2
-time_needed      : 1 hour
+time_needed      : 16 hours
